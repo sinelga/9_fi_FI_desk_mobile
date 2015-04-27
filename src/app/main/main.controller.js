@@ -64,6 +64,14 @@ angular.module('4FiFipornoDesk')
 				
 			}
 
+		},function(error){
+			
+			
+			console.log(error);
+			
+			$scope.err = error.data;
+			
+			
 		});
 
 		
